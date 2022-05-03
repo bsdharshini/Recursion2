@@ -18,7 +18,7 @@ print(replace_s(t,c1,c2))
 #without string copying
 def replace_char(t,c1,c2,s):
     l = len(t)
-    if l == s:
+    if l-1 == s:
         return t[s]
     smallList = replace_char(t,c1,c2,s+1)
     if t[s] == c1:
