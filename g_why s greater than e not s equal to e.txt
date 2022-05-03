@@ -1,0 +1,7 @@
+why s greater than e not s equal to e ?
+*) s == e means still there is one elementto check
+*) s>e means no element to check. It came to end of the array length 
+
+why we need end index in binary search?
+*) In binary search we need start and end indexx to find the element. 
+*) Because we are splitting the array with start and end index
